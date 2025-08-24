@@ -1,0 +1,81 @@
+# Remix IDE artifacts
+contracts/artifacts/
+cache/
+node_modules/
+
+# Build artifacts
+build/
+dist/
+out/
+
+# Compilation artifacts
+*.sol.js
+*.metadata.json
+
+# Environment and config files
+.env
+.env.local
+.env.production
+.env.staging
+config.json
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Dependency directories
+node_modules/
+jspm_packages/
+
+# Optional npm cache directory
+.npm
+
+# Optional REPL history
+.node_repl_history
+
+# Package lock files (if using npm/yarn)
+package-lock.json
+yarn.lock
+
+# Coverage directory used by tools like istanbul
+coverage/
+*.lcov
+
+# Test artifacts
+.nyc_output
+
+# Foundry artifacts (if using Foundry alongside Remix)
+lib/
+forge-cache/
+broadcast/
+
+# Hardhat artifacts (if using Hardhat alongside Remix)
+artifacts/
+typechain/
+typechain-types/
+
+# Truffle artifacts (if using Truffle alongside Remix)
+contracts/build/
+
+# Temporary files
+tmp/
+temp/
