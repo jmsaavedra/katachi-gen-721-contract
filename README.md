@@ -17,6 +17,14 @@ The Katachi Gen ERC721 contract implements the standard NFT functionality with a
 
 ## Deployed Contract
 
+**Shape Mainnet** ✅ **DEPLOYED & VERIFIED**
+- Contract Address: `0x9fba90186403d1c5e3e1971536862cf4ebb0f766`
+- Explorer: [View on ShapeScan](https://shapescan.xyz/address/0x9fba90186403d1c5e3e1971536862cf4ebb0f766?tab=contract)
+- Token Name: "KatachiGen"
+- Symbol: "KGEN"
+- Owner: `0x56bdE1E5efC80B1E2B958f2D311f4176945Ae77f`
+- Status: **LIVE & VERIFIED** - Ready for minting!
+
 **Shape Testnet (Sepolia)**
 - Contract Address: `0x9FdB107c9AAE301F021e1F34BEB8Ca6F2324de85`
 - Explorer: [View on ShapeScan](https://sepolia.shapescan.xyz/address/0x9FdB107c9AAE301F021e1F34BEB8Ca6F2324de85)
