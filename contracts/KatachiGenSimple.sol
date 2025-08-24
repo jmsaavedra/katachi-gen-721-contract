@@ -32,7 +32,7 @@ contract KatachiGenSimple is ERC721Enumerable, ERC721Burnable, Ownable {
         _setTokenURI(tokenId, uri);
     }
 
-    function tokenURI(uint256 tokenId) public view override(ERC721, ERC721Enumerable) returns (string memory) {
+    function tokenURI(uint256 tokenId) public view override returns (string memory) {
         _requireOwned(tokenId);
         
         string memory _tokenURI = _tokenURIs[tokenId];
@@ -45,7 +45,7 @@ contract KatachiGenSimple is ERC721Enumerable, ERC721Burnable, Ownable {
             return string(abi.encodePacked(base, _tokenURI));
         }
 
-        return ERC721.tokenURI(tokenId);
+        return super.tokenURI(tokenId);
     }
 
     function _setTokenURI(uint256 tokenId, string memory uri) internal {
